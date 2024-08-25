@@ -86,6 +86,46 @@ h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
 }
+/******/
+#hero {
+  position: relative;
+}
+
+#hero .container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  text-align: right;
+}
+
+#hero .social-links {
+  text-align: right;
+}
+
+#about .img-fluid {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0; /* Ensures the image remains square without rounded edges */
+}
+
+#about p {
+  background-color: #f8f9fa; /* Light background color for contrast */
+  padding: 20px; /* Adds space inside the box */
+  border-radius: 8px; /* Smooth corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+  font-size: 1.1rem; /* Slightly larger font for emphasis */
+  line-height: 1.6; /* Improved readability */
+}
+
+#about .fst-italic {
+  font-style: italic;
+  color: #495057; /* A soft gray color for a professional look */
+}
+
+
+/******/
 
 /* PHP Email Form Messages
 ------------------------------*/
